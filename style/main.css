@@ -1,0 +1,133 @@
+a {
+  text-decoration: none;
+}
+
+.weather-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding-top: 0.75rem;
+  color: dodgerblue;
+}
+.weather-header__logo img {
+  width: 40%;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.main__background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(38, 36, 33);
+  width: 30%;
+}
+
+.weather__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+  padding-top: 0.75rem;
+  color: white;
+  background: 100%;
+  margin: 1rem 1rem;
+}
+
+.destination {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5rem;
+}
+.destination__header {
+  animation: fadeIn 5s ease-out;
+  font-size: 2rem;
+  color: black;
+  background-color: #aaa;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+.destination-form {
+  align-items: center;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.destination-form__input {
+  height: 2.5rem;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.destination-form__input::-moz-placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+.destination-form__input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+.destination-form__button {
+  background-color: black;
+  border: none;
+  border-radius: 0.25rem;
+  height: 2.5rem;
+  width: 100%;
+  color: white;
+  margin-top: 0.25rem;
+  border-radius: 0.5rem;
+}
+.destination-form__button:hover {
+  cursor: pointer;
+  background-color: orange;
+}
+
+.booking__header {
+  font-size: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  animation: fadeIn 5s ease-out;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.booking__icons-container {
+  display: flex;
+  justify-content: center;
+}
+.booking__icons {
+  width: 20rem;
+  margin: 0 1rem;
+  margin-top: 2rem;
+}
+.booking__icons:nth-child(1) {
+  width: 6rem;
+}
+.booking__icons:nth-child(2) {
+  width: 8rem;
+}
+.booking__icons:nth-child(3) {
+  width: 25rem;
+}/*# sourceMappingURL=main.css.map */

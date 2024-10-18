@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/global.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+    <title>Weather Pop</title>
+  </head>
+  <body>
+    <header class="weather-header">
+      <a href="/index.html" class="weather-header__logo">
+        <img src="/logo.png" alt="logo" />
+      </a>
+      <h1>Weather Pop</h1>
+    </header>
+
+    <main class="main">
+
+      <section class="destination">
+        <h2 class="destination__header">Where would you like to go?</h2>
+
+        <form class="destination-form">
+          <div class="destination-form__input-container">
+            <input
+              id="input"
+              name="input"
+              class="destination-form__input"
+              type="text"
+              placeholder="      Destination City"
+              required
+            />
+          </div>
+          <button class="destination-form__button">Pop Weather!</button>
+        </form>
+      </section>
+      <article class="weather-container">
+    </article>
+    </main>
+
+    <footer class="booking">
+        <h2 class="booking__header">Book your trip now</h2>
+        <div class="booking__icons-container">
+          <a href="https://www.airbnb.ca/">
+            <img
+              src="./assets/airbnb-logo.svg"
+              alt="airbnb logo"
+              class="booking__icons">
+          </a>
+          <a href="https://www.expedia.ca/">
+            <img
+              src="./assets/expedia-logo-png.svg"
+              alt="expedia logo"
+              class="booking__icons">
+          </a>
+          <a href="https://www.google.com/travel/flights">
+            <img
+              src="./assets/Google-Flights-logo-png.svg"
+              alt="google flights"
+              class="booking__icons">
+          </a>
+        </div>
+    </footer>
+
+
+    <script type="module" src="scripts/main.js"></script>    
+  </body>
+</html>
